@@ -1,6 +1,6 @@
-FROM nvidia/cuda:9.2-cudnn7-devel-ubuntu16.04
+FROM nvidia/cuda:9.0-cudnn7-devel-ubuntu16.04
 
-MAINTAINER marearth@mail.ustc.edu.cn
+MAINTAINER keda2010@mail.ustc.edu.cn
 
 RUN apt-get clean    && \
     cd /var/lib/apt   &&   mkdir -p lists/partial      &&\
