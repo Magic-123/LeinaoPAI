@@ -9,7 +9,7 @@ RUN rm -rf /var/lib/apt/lists/* \
     apt-get install -y python3-tk unrar git && \
     pip install --upgrade pip &&\
     pip install torch==1.0.1 -f https://download.pytorch.org/whl/cu90/stable &&\
-    pip3 install torchvision tensorboardX opencv-python yacs torchsummary nibabel&& \
+    pip3 install torchvision tensorboardX opencv-python yacs torchsummary nibabel medpy && \
     apt-get update -y && \
     # apt-get install -y --allow-downgrades --no-install-recommends libcudnn7=7.0.5.15-1+cuda9.0 libcudnn7-dev=7.0.5.15-1+cuda9.0 && \
     rm -rf /var/lib/apt/lists/*  
