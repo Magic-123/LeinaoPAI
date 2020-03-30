@@ -1,6 +1,6 @@
 # ==================================================================
-# cu80-py36-tf14-t2t129-torch041
-# maintrainer: Tianyu He (tim-he@qq.com)
+# py36_torch0.4.0_cu80
+# maintrainer: Magic (1159807494@qq.com)
 # ------------------------------------------------------------------
 # python        3.6    (apt)
 # tensorflow    1.4.0  (pip)
